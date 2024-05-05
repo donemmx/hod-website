@@ -29,17 +29,13 @@ const ContentSectionOne = () => {
             <div className="content">
               <div className="content-text-block">
                 <h2 className="content-title heading-md text-black">
-                We leverage top technology to maximize our clients' productivity.
+                We leverage top technology to maximize our productivity.
                 </h2>
                 <p>
-                  SINCE 1998, we transform bold business ideas into exceptional
-                  digital products. We ideate, design, and develop data-driven
-                  digital products made to answer business challenges.
+                By harnessing the latest advancements in technology, we empower our clients to reach new heights of productivity. Our tailored solutions optimize workflows, enhance efficiency, and support sustained business growth.
                 </p>
                 <p>
-                  We offer 360° services to smoothly guide you on your way to
-                  creating a seamless digital masterpiece projects on budget and
-                  on time.
+                With our expertise, businesses can achieve more in less time and stay ahead of the competition.
                 </p>
               </div>
             </div>

@@ -63,7 +63,7 @@ const Portfolio = () => {
 
         <div className="row row--portfolio-gutter">
           <div
-            className="col-md-6 col-xs-10"
+            className="col-md-4 col-xs-10"
             data-aos-duration="1000"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -71,7 +71,15 @@ const Portfolio = () => {
             <PortfolioWidgetOne {...settings.cardOne} />
           </div>
           <div
-            className="col-md-6 col-xs-10"
+            className="col-md-4 col-xs-10"
+            data-aos-duration="1000"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
+            <PortfolioWidgetOne {...settings.cardTwo} />
+          </div>
+          <div
+            className="col-md-4 col-xs-10"
             data-aos-duration="1000"
             data-aos="fade-down"
             data-aos-delay="300"

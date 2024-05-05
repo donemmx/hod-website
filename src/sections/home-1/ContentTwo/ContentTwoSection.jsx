@@ -33,9 +33,7 @@ const ContentTwo = () => {
                   Source giants
                 </h2>
                 <p>
-                  Our brand tenders and marketing mixologists always serve up
-                  unique, design-forward websites coded with today’s modern
-                  technologies
+                Instead of starting from scratch, we embrace the foundational work of established Open Source giants. This approach allows us to innovate more efficiently and deliver robust, high-quality solutions to our clients. By leveraging existing open-source technologies, we can focus on enhancing and customizing these resources to meet our clients' unique needs. 
                 </p>
               </div>
               <div className="content-list-block">
@@ -45,24 +43,16 @@ const ContentTwo = () => {
                       src="/image/icons/icon-check-blue.svg"
                       alt="alternative text"
                     />
-                    Reach new business opportunities or test your product ideas.
+                   This strategy saves time and effort 
                   </li>
                   <li className="content-list-item">
                     <img
                       src="/image/icons/icon-check-blue.svg"
                       alt="alternative text"
                     />
-                    Automate your processes and get data-driven business
-                    insights.
+                   Contributes to a collaborative ecosystem that benefits the entire tech community.
                   </li>
-                  <li className="content-list-item">
-                    <img
-                      src="/image/icons/icon-check-blue.svg"
-                      alt="alternative text"
-                    />
-                    Create lightweight, scalable, and easly accessible cloud
-                    solution.
-                  </li>
+              
                 </ul>
               </div>
             </div>
