@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="col-xxl-auto col-lg-6 col-md-7 col-sm-8 col-10  transform-none ">
             <div className="home-1_hero-image-block">
               <div className="home-1_hero-image">
-                <img src="/image/home-1/hero-image.png" alt="hero image" />
+                <img src="/image/home-1/business-solution.png" alt="hero image" />
               </div>
             </div>
           </div>
