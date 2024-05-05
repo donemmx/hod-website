@@ -57,7 +57,7 @@ const TestimonialSection = () => {
                   Dr Adegbola
                 </h4>
                 <span className="testimonial-widget-large__user-position">
-                  AI Expert and Microsoft Partner
+                  AI Expert, a Research Scientist, Consulting Engineer and Cultural Activist 
                 </span>
               </div>
             </div>
