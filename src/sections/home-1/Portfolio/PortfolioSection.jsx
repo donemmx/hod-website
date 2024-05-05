@@ -21,14 +21,14 @@ const settings = {
   },
   cardTwo: {
     image: "/image/portfolio/the-mirror.png",
-    title: "Website — The Mirror.",
+    title: "The Mirror",
     category: "Web App",
     url: "/portfolio-details",
     button: true,
   },
   cardThree: {
     image: "/image/portfolio/charis.png",
-    title: "Website — Charis coding.",
+    title: "Charis coding",
     category: "Web App",
     url: "/portfolio-details",
     button: true,

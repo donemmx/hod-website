@@ -30,8 +30,9 @@ const TestimonialSection = () => {
             >
               <div className="testimonial-widget-large__image">
                 <img
-                  src="/image/home-1/testimonial-image.png"
+                  src="/image/home-1/tunde-adegbola.webp"
                   alt="handsome-smiling-bearded-man-glasses-working-laptop"
+                  className="testimonialImage"
                 />
               </div>
             </div>
