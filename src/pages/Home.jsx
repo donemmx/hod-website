@@ -32,7 +32,7 @@ const Homepage = () => {
         <ContentSectionTwo />
         <PortfolioSection />
         <TestimonialSection />
-        <FaqSection />
+        {/* <FaqSection /> */}
         <CtaSection />
         <FooterLayoutOne {...settingProps.footer} />
       </Layout>
