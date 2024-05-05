@@ -1,44 +1,26 @@
 [
   {
     "iconSrc": "/image/icons/icon-service-1.svg",
-    "title": "Branding & Digital Strategies",
-    "description": "Brand strategy is all about developing a unique identity that distinguishes your business from",
-
+    "title": "Devops & Infrastructure",
+    "description": "Our DevOps and infrastructure services streamline your development process and optimize your IT environment. ",
     "aos": "fade-right"
   },
   {
     "iconSrc": "/image/icons/icon-service-2.svg",
-    "title": "Web Design & App Development",
-    "description": "Web design & development is an umbrella term that describes the process of creating a website",
-
+    "title": "Software Development",
+    "description": "By understanding your goals and challenges, we create digital products that drive productivity, improve user experiences, and support your growth ",
     "aos": "fade-left"
   },
   {
     "iconSrc": "/image/icons/icon-service-3.svg",
-    "title": "Results-Driven Digital Marketing",
-    "description": "Digital marketing potential customers using the internet & other forms of digital communication",
-
+    "title": "Mobile App Development",
+    "description": "By understanding your unique needs, we craft mobile solutions that drive user satisfaction & business growth",
     "aos": "fade-right"
   },
   {
     "iconSrc": "/image/icons/icon-service-4.svg",
-    "title": "Custom Software Development",
-    "description": "Custom Software Development is the process of conceptualizing, designing, building & deploying",
-
-    "aos": "fade-left"
-  },
-  {
-    "iconSrc": "/image/icons/icon-service-5.svg",
-    "title": "Search Engine Optimization",
-    "description": "SEO is the practice of orienting your website to rank higher on a sear engine results more traffic",
-
-    "aos": "fade-right"
-  },
-  {
-    "iconSrc": "/image/icons/icon-service-6.svg",
-    "title": "Social Media Strategies",
-    "description": "A social media strategy is an outline of content that your business will post, the responsibilities",
-
+    "title": "Artificial Inteligence",
+    "description": "Leverage machine learning and advanced algorithms to create software that automates processes, enhances decision-making, and delivers personalized experiences.",
     "aos": "fade-left"
   }
 ]

@@ -21,20 +21,6 @@ const ContentSection = () => {
                     alt="alternative text"
                   />
                 </div>
-                <ModalVideo
-                  channel="youtube"
-                  youtube={{ mute: 0, autoplay: 0 }}
-                  isOpen={isOpen}
-                  videoId="zo9dJFo8H8g"
-                  onClose={() => setOpen(false)}
-                />
-                <button
-                  style={{ border: "none" }}
-                  onClick={() => setOpen(true)}
-                  className="absolute-center btn-play sonar-emitter "
-                >
-                  <i className="fa-solid fa-play"></i>
-                </button>
               </div>
             </div>
             <div
