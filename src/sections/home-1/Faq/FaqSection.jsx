@@ -47,7 +47,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="section-button">
-          <a href="#" className="btn-masco rounded-pill btn-fill--up">
+          <a href="#" className="btn-hod rounded-pill btn-fill--up">
             <span>Still, have any questions? Contact us</span>
           </a>
         </div>

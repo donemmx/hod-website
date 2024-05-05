@@ -117,7 +117,7 @@ const BlogSidebar = () => {
               />
             </form>
             <div className="sidebar-button">
-              <a href="#" className="btn-masco btn-primary rounded-pill w-100">
+              <a href="#" className="btn-hod btn-primary rounded-pill w-100">
                 Subscribe Now
               </a>
             </div>

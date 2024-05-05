@@ -71,7 +71,7 @@ const CareerMainSection = () => {
             <Button
               href="#"
               animation={false}
-              className="btn-masco rounded-pill btn-fill--up"
+              className="btn-hod rounded-pill btn-fill--up"
             >
               <span>Can’t find your role? Contact us</span>
             </Button>

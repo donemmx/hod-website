@@ -16,20 +16,6 @@ const ContentSection = () => {
                     alt="alternative text"
                   />
                 </div>
-                <ModalVideo
-                  channel="youtube"
-                  youtube={{ mute: 0, autoplay: 0 }}
-                  isOpen={isOpen}
-                  videoId="zo9dJFo8H8g"
-                  onClose={() => setOpen(false)}
-                />
-                <button
-                  style={{ border: "none" }}
-                  onClick={() => setOpen(true)}
-                  className="absolute-center btn-play sonar-emitter "
-                >
-                  <i className="fa-solid fa-play"></i>
-                </button>
               </div>
             </div>
             <div
@@ -44,10 +30,12 @@ const ContentSection = () => {
                     experiences to our clients
                   </h2>
                   <p>
-                    SINCE 1998, we transform bold business ideas into
-                    exceptional digital products. We ideate, design, and develop
-                    data-driven digital products made to answer business
-                    challenges.
+                    We create technological tools and provide solutions to
+                    businesses and consumers. We create top quality web and
+                    mobile applications, visual experiences, as well as provide
+                    special services such as automation, data analysis, business
+                    digitization, data pipelines, AI implementations and lots
+                    more. 
                   </p>
                   <div className="content-divider" />
                 </div>

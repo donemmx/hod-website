@@ -69,7 +69,7 @@ const PricingCardSix = ({ isMonthly }) => {
             <Button
               href="#"
               animation={false}
-              className="btn-masco btn-primary-l08 btn-fill--slide w-100"
+              className="btn-hod btn-primary-l08 btn-fill--slide w-100"
             >
               <span>Choose Plan</span>
             </Button>

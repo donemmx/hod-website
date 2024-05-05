@@ -43,7 +43,7 @@ const FaqSection = () => {
           <Button
             href="#"
             animation={false}
-            className="btn-masco rounded-pill btn-fill--up"
+            className="btn-hod rounded-pill btn-fill--up"
           >
             <span>Still, have any questions? Contact us</span>
           </Button>

@@ -72,7 +72,7 @@ export default function Button({
     : "";
   let animationClass = animation ? " btn-fill--up" : "";
   let classes =
-    "btn-masco" + buttonType + animationClass + hasClassProps(className);
+    "btn-hod" + buttonType + animationClass + hasClassProps(className);
 
   let buttonSettings = {
     buttonType: buttonType,

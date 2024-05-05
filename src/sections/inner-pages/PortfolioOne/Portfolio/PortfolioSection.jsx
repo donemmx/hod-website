@@ -57,7 +57,7 @@ const PortfolioSection = () => {
           </div>
 
           <div className="section-button">
-            <Button href="#" className="btn-masco rounded-pill btn-fill--up">
+            <Button href="#" className="btn-hod rounded-pill btn-fill--up">
               <span>View more</span>
             </Button>
           </div>

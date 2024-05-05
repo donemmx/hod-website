@@ -20,7 +20,7 @@ const ComingSoonSection = () => {
                       placeholder="Enter your email"
                       className="form-control"
                     />
-                    <button className="btn-masco rounded-pill">
+                    <button className="btn-hod rounded-pill">
                       Get Notified
                     </button>
                   </div>

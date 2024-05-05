@@ -29,7 +29,7 @@ const TeamTwoSection = () => {
           </div>
 
           <div className="section-button">
-            <Button href="#" className="btn-masco rounded-pill btn-fill--up">
+            <Button href="#" className="btn-hod rounded-pill btn-fill--up">
               <span>Want to join us?</span>
             </Button>
           </div>

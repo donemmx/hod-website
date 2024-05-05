@@ -43,7 +43,7 @@ const CareerDetailsSidebar = () => {
             </div>
           </form>
           <div className="form-box-style__form-input-button">
-            <button type="submit" className="btn-masco rounded-pill w-100">
+            <button type="submit" className="btn-hod rounded-pill w-100">
               Submit
             </button>
           </div>

@@ -98,10 +98,10 @@ const Header = ({
             <span />
           </div>
 
-          <div className="header-cta-btn-wrapper">
+          {/* <div className="header-cta-btn-wrapper">
             <a
               href="#"
-              className="btn-masco btn-masco--header btn-masco--header-secondary"
+              className="btn-hod btn-hod--header btn-hod--header-secondary"
             >
               <span>Login</span>
             </a>
@@ -113,7 +113,7 @@ const Header = ({
             >
               Sign up free
             </Button>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

@@ -46,7 +46,7 @@ const ContentBlock = ({
         {lists && <ListBlock {...lists} />}
         {button && (
           <div className="content-button-block">
-            <a href={button?.url} className={`btn-masco ${button?.class}`}>
+            <a href={button?.url} className={`btn-hod ${button?.class}`}>
               <span>{button?.text}</span>
             </a>
           </div>

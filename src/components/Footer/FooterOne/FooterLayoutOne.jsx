@@ -1,6 +1,8 @@
 import { hasClassProps } from "@utils/helpers";
+import { Link } from "react-router-dom";
 
 const FooterLayoutOne = ({ className, logo, socialClass }) => {
+  const today = new Date().getFullYear()
   return (
     <div className={`footer${hasClassProps(className)}`}>
       <div className="container">
@@ -18,8 +20,8 @@ const FooterLayoutOne = ({ className, logo, socialClass }) => {
                 </p>
               </div>
 
-              <a href="#" className="footer-link">
-                mascoexample@gmail.com
+              <a href="mailto:headofdays@gmail.com" className="footer-link">
+                headofdays@gmail.com
               </a>
               <br />
               <ul
@@ -51,65 +53,35 @@ const FooterLayoutOne = ({ className, logo, socialClass }) => {
           <div className=" col-lg-7 col-xl-6 col-xxl-7 offset-xl-1">
             <div className="row row--list-block">
               <div className="col-auto col-md-4 col-lg-auto col-xl-auto col-xxl-auto">
-                <h3 className="footer-title">Primary Pages</h3>
+                <h3 className="footer-title">Links</h3>
                 <ul className="footer-list">
                   <li>
-                    <a href="#">Demos</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <Link to="/service">Services</Link>
                   </li>
                   <li>
-                    <a href="#">Pages</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
               <div className="col-auto col-md-4 col-lg-auto col-xl-auto col-xxl-auto">
-                <h3 className="footer-title">Utility pages</h3>
+                <h3 className="footer-title">Others</h3>
                 <ul className="footer-list">
                   <li>
-                    <a href="#">Instructions</a>
+                    <Link to="/faq">FAQ</Link>
                   </li>
                   <li>
-                    <a href="#">Style guide</a>
+                    <Link to="/blog">Blog</Link>
                   </li>
-                  <li>
-                    <a href="#">Licenses</a>
-                  </li>
-                  <li>
-                    <a href="#">404 Not found</a>
-                  </li>
-                  <li>
-                    <a href="#">Password protected</a>
-                  </li>
+                  
                 </ul>
               </div>
-              <div className="col-auto col-md-4 col-lg-auto col-xl-auto col-xxl-auto">
-                <h3 className="footer-title">Resources</h3>
-                <ul className="footer-list">
-                  <li>
-                    <a href="#">Support</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Terms & Conditions</a>
-                  </li>
-                  <li>
-                    <a href="#">Strategic finance</a>
-                  </li>
-                  <li>
-                    <a href="#">Video guide</a>
-                  </li>
-                </ul>
-              </div>
+              <div className="col-auto col-md-4 col-lg-auto col-xl-auto col-xxl-auto"></div>
             </div>
           </div>
         </div>
@@ -117,7 +89,7 @@ const FooterLayoutOne = ({ className, logo, socialClass }) => {
       <div className="copyright-block">
         <div className="container">
           <div className="copyright-inner text-center  copyright-border">
-            <p>© Copyright 2023, All Rights Reserved by Mthemeus</p>
+            <p>© Copyright {today}, All Rights Reserved by Head of days LTD</p>
           </div>
         </div>
       </div>

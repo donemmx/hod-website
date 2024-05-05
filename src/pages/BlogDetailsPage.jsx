@@ -14,7 +14,7 @@ const BlogDetails = () => {
   return (
     <>
       <Layout>
-        <Header signUpButtonClass="btn-masco btn-masco--header rounded-pill btn-fill--up" />
+        <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
         <Banner
           title="How we use Slack, Trello, & TeamGantt for best project management as a digital agency"
           text="Blog Details"

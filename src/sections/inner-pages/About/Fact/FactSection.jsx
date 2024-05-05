@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FactSection = () => {
   return (
     <>
@@ -12,19 +14,20 @@ const FactSection = () => {
                     world for a long time
                   </h2>
                   <p>
-                    With more than a decade of experience. We are worry about
-                    the details so you need don't have to. When you work with
-                    our agency, you can be sure that your website meets every
-                    standard.
+                    Our exceptional performance and track record of delivering
+                    top notch products and services has made us a go-to company
+                    for companies seeking to take advantage of modern day tools
+                    to advance their businesses. Our customers are special to us
+                    and your satisfaction is top priority.
                   </p>
                 </div>
                 <div className="content-button-block">
-                  <a
-                    href="#"
-                    className="btn-masco btn-primary rounded-pill btn-fill--up"
+                  <Link
+                    to="/contact"
+                    className="btn-hod btn-primary rounded-pill btn-fill--up"
                   >
                     <span>Get in touch</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

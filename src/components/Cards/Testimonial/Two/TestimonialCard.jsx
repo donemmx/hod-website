@@ -32,8 +32,8 @@ export default TestimonialCard;
               </div>
 
               <div class="testimonial-card-2__body">
-                <h3 class="testimonial-card-2__title">Masco is an Excellent company </h3>
-                <p>Masco is an excellent company. in everything uptime, fast technical support,
+                <h3 class="testimonial-card-2__title">hod is an Excellent company </h3>
+                <p>hod is an excellent company. in everything uptime, fast technical support,
                   sales, &amp; billing-friendly people.
                   If you want to open a web solutions must register.</p>
               </div>

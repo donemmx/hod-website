@@ -10,7 +10,6 @@ import FooterLayoutOne from "@components/Footer/FooterOne";
 import Header from "@components/Header";
 import ServiceSection from "@sections/home-1/Service";
 import Layout from "../components/Layout/PageWrapper/PageWrapper";
-import ComingSoonPage from "./ComingSoonPage";
 
 let settingProps = {
   footer: {
@@ -22,9 +21,9 @@ const Homepage = () => {
   return (
     <>
       <Layout>
-        {/* <Header
+        <Header
           scroll={true}
-          signUpButtonClass="btn-masco btn-masco--header rounded-pill btn-fill--up"
+          signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up"
         />
         <HeroSection />
         <BrandSection />
@@ -34,9 +33,8 @@ const Homepage = () => {
         <PortfolioSection />
         <TestimonialSection />
         <FaqSection />
-        <CtaSection /> */}
-        <ComingSoonPage/>
-        {/* <FooterLayoutOne {...settingProps.footer} /> */}
+        <CtaSection />
+        <FooterLayoutOne {...settingProps.footer} />
       </Layout>
     </>
   );

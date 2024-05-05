@@ -16,7 +16,7 @@ const ContactPageOne = () => {
     <>
       {" "}
       <Layout>
-        <Header signUpButtonClass="btn-masco btn-masco--header rounded-pill btn-fill--up" />
+        <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
         <Banner title="Contact Us" text="Contact Us" />
         <FeatureSection />
         <ContactMainSection />

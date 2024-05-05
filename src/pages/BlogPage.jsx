@@ -15,7 +15,7 @@ const BlogPage = () => {
     <>
       {" "}
       <Layout>
-        <Header signUpButtonClass="btn-masco btn-masco--header rounded-pill btn-fill--up" />
+        <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
         <Banner title="Articles & Resources" text="Blog" />
         <BlogMainSection />
         <CtaSection />

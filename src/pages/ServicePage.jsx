@@ -18,12 +18,10 @@ const ServicePage = () => {
     <>
       {" "}
       <Layout>
-        <Header signUpButtonClass="btn-masco btn-masco--header rounded-pill btn-fill--up" />
+        <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
         <Banner title="Our Services" text="Our Services" />
         <ServiceSection />
         <ContentSection />
-        <PricingSection />
-        <FaqSection />
         <CtaSection />
         <FooterLayoutOne {...settingProps.footer} />{" "}
       </Layout>

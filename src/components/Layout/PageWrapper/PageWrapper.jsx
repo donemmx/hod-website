@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {loading && (
+      {/* {loading && (
         <div className="preloader-wrapper">
           <div className="lds-ellipsis">
             <div></div>
@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
             <div></div>
           </div>
         </div>
-      )}
+      )} */}
       <div className={`page-wrapper overflow-hidden`}>{children}</div>
     </>
   );

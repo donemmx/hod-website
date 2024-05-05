@@ -33,7 +33,7 @@
 //     % endif %
 //     % if args.button %
 //     <div className="content-button-block">
-//       <a href="{{' ' +args.button.url}}" className="btn-masco{{' ' + args.button.class}}"><span>args.button.text</span></a>
+//       <a href="{{' ' +args.button.url}}" className="btn-hod{{' ' + args.button.class}}"><span>args.button.text</span></a>
 //     </div>
 //     % endif %
 //   </div>

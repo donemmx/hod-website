@@ -29,8 +29,7 @@ const ContentSectionOne = () => {
             <div className="content">
               <div className="content-text-block">
                 <h2 className="content-title heading-md text-black">
-                  Boost the effectiveness of your promotions as well as polish
-                  your branding
+                We leverage top technology to maximize our clients' productivity.
                 </h2>
                 <p>
                   SINCE 1998, we transform bold business ideas into exceptional

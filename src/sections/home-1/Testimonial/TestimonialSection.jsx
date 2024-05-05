@@ -48,23 +48,16 @@ const TestimonialSection = () => {
                   />
                 </div>
                 <p className="testimonial-widget-large__review-text">
-                  They’re probably one of the easiest vendors I’ve ever worked
-                  with in the digital space. They have our best interests in
-                  mind. The team went the extra mile in negotiating costs and
-                  delivering within a flexible scope. They’re customer focused
-                  and strong in terms of development quality.
+                  A very resourceful company. They are driven individuals who
+                  have mastered technological tools in a way that gives them
+                  competitive advantage.
                 </p>
                 <h4 className="testimonial-widget-large__user-name">
-                  Dominika Drońska
+                  Dr Adegbola
                 </h4>
                 <span className="testimonial-widget-large__user-position">
-                  Senior Digital Marketing Manager, Abbey Road Studios
+                  AI Expert and Microsoft Partner
                 </span>
-                <div className="testimonial-widget-large__link">
-                  <Link to="/" className="btn-link btn-arrow">
-                    Read more reviews
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

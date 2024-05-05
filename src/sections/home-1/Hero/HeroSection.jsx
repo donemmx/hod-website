@@ -17,24 +17,10 @@ const HeroSection = () => {
       </div>
       <div className="container">
         <div className="row row--hero-content">
-          <div
-            className="col-xxl-auto col-lg-6 col-md-7 col-sm-8 col-10  transform-none "
-            
-          >
+          <div className="col-xxl-auto col-lg-6 col-md-7 col-sm-8 col-10  transform-none ">
             <div className="home-1_hero-image-block">
               <div className="home-1_hero-image">
                 <img src="/image/home-1/hero-image.png" alt="hero image" />
-                <ModalVideo
-                  channel="youtube"
-                  youtube={{ mute: 0, autoplay: 0 }}
-                  isOpen={isOpen}
-                  videoId="zo9dJFo8H8g"
-                  onClose={() => setOpen(false)}
-                />
-                <ButtonPlay
-                  setOpen={setOpen}
-                  className="absolute-center btn-play sonar-emitter cursor-pointer"
-                />
               </div>
             </div>
           </div>
@@ -46,13 +32,11 @@ const HeroSection = () => {
           >
             <div className="home-1_hero-content">
               <div className="home-1_hero-content-text">
-                <h1 className="hero-content__title heading-xxl">
-                  We focus on growing your brand online
+                <h1 className="hero-content__title heading-lg">
+                  Enabling Business Growth with Software Solutions
                 </h1>
                 <p>
-                  Build world-class digital products with a team of design,
-                  development &amp; strategy experts. All in one place. We can
-                  provide your business with a variety of digital solutions.
+                Craft top-tier digital products with our design, development, and strategy specialists—all in one team. We deliver comprehensive software solutions to drive your business forward.
                 </p>
               </div>
               <div className="home-1_hero-newsletter">
@@ -66,10 +50,6 @@ const HeroSection = () => {
                     Subscribe
                   </Button>
                 </form>
-                <span className="home-1_hero-newsletter__bottom-text">
-                  <img src="/image/icons/icon-check-blue.svg" alt="icon" /> No
-                  credit card is required. You can cancel anytime
-                </span>
               </div>
             </div>
           </div>

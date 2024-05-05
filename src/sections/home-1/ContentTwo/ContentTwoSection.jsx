@@ -29,8 +29,8 @@ const ContentTwo = () => {
             <div className="content">
               <div className="content-text-block">
                 <h2 className="content-title heading-md text-black">
-                  Discover the latest digital strategies &amp; emerging ideas
-                  for business growth
+                  Why reinvent the wheel? We build on the work of great Open
+                  Source giants
                 </h2>
                 <p>
                   Our brand tenders and marketing mixologists always serve up

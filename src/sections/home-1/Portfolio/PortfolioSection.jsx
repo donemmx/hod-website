@@ -8,7 +8,7 @@ const settings = {
     className: "text-center text-md-initial",
     title: "We create world-class web design, & branding",
     titleClass: "heading-md text-black",
-    buttonClass: "btn-masco rounded-pill btn-fill--up",
+    buttonClass: "btn-hod rounded-pill btn-fill--up",
     buttonText: "See more works",
     link: "portfolio.html",
   },
@@ -55,7 +55,7 @@ const Portfolio = () => {
         <SectionHeading {...settingProps.sectionHeading}>
           <Button
             href="/portfolio"
-            className="btn-masco rounded-pill btn-fill--up"
+            className="btn-hod rounded-pill btn-fill--up"
           >
             See more works
           </Button>
