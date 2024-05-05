@@ -2,25 +2,25 @@ let ServiceData = [
   {
     iconSrc: "/image/icons/icon-service-1.svg",
     title: "Devops & Infrastructure",
-    text: "Brand strategy is all about developing a unique identity that distinguishes your business from",
+    text: "Our DevOps and infrastructure services streamline your development process and optimize your IT environment. ",
     aos: "fade-right",
   },
   {
     iconSrc: "/image/icons/icon-service-2.svg",
     title: "Software Development",
-    text: "Web design & development is an umbrella term that describes the process of creating a website",
+    text: "By understanding your goals and challenges, we create digital products that drive productivity, improve user experiences, and support your growth ",
     aos: "fade-left",
   },
   {
     iconSrc: "/image/icons/icon-service-3.svg",
     title: "Mobile App Development",
-    text: "Digital marketing potential customers using the internet & other forms of digital communication",
+    text: "By understanding your unique needs, we craft mobile solutions that drive user satisfaction & business growth",
     aos: "fade-right",
   },
   {
     iconSrc: "/image/icons/icon-service-4.svg",
-    title: "Custom Software Development",
-    text: "Custom Software Development is the process of conceptualizing, designing, building & deploying",
+    title: "Artificial Inteligence",
+    text: "Leverage machine learning and advanced algorithms to create software that automates processes, enhances decision-making, and delivers personalized experiences.",
     aos: "fade-left",
   },
 ];
