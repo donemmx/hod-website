@@ -10,12 +10,11 @@ const PortfolioWidgetOne = ({
   text,
 }) => {
   return (
-    <Link
-      to={url}
+    <div
       className={`portfolio-widget ${className ? " " + className : ""}`}
     >
       <div className="portfolio-widget_image-block">
-        <img src={image} alt="portfolio image" />
+        <img src={image} alt="portfolio image" className="portfolioImage" />
       </div>
       <div className="portfolio-widget__title-block">
         <h3 className="portfolio-widget__title">{title}</h3>
@@ -33,7 +32,7 @@ const PortfolioWidgetOne = ({
           <p>{text}</p>
         </div>
       ) : null}
-    </Link>
+    </div>
   );
 };
 

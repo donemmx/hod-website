@@ -13,16 +13,23 @@ const settings = {
     link: "portfolio.html",
   },
   cardOne: {
-    image: "/image/home-1/porfolio-img1.png",
-    title: "App — The power of communication",
-    category: "UI/UX Design",
+    image: "/image/portfolio/heirs-mobile.png",
+    title: "Heirs Insurance",
+    category: "Mobile App",
     url: "/portfolio-details",
     button: true,
   },
   cardTwo: {
-    image: "/image/home-1/porfolio-img2.png",
-    title: "Website — The future lifestyle platform.",
-    category: "Branding",
+    image: "/image/portfolio/the-mirror.png",
+    title: "Website — The Mirror.",
+    category: "Web App",
+    url: "/portfolio-details",
+    button: true,
+  },
+  cardThree: {
+    image: "/image/portfolio/charis.png",
+    title: "Website — Charis coding.",
+    category: "Web App",
     url: "/portfolio-details",
     button: true,
   },
@@ -54,7 +61,6 @@ const Portfolio = () => {
       <div className="container">
         <SectionHeading {...settingProps.sectionHeading}>
           <Button
-            href="/portfolio"
             className="btn-hod rounded-pill btn-fill--up"
           >
             See more works
@@ -84,7 +90,7 @@ const Portfolio = () => {
             data-aos="fade-down"
             data-aos-delay="300"
           >
-            <PortfolioWidgetOne {...settings.cardTwo} />
+            <PortfolioWidgetOne {...settings.cardThree} />
           </div>
         </div>
       </div>
