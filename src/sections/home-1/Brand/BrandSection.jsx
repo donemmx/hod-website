@@ -7,7 +7,7 @@ const BrandSection = ({ className }) => {
         <div className="brands-wrapper-inner">
           <div className="brand-heading">
             <h3 className="brand-heading__title">
-              From start-ups to Fortune 500, we partner with brands of all sizes
+               Some of our clientele's
             </h3>
           </div>
           <div className="brands-wrapper ">
@@ -22,6 +22,7 @@ const BrandSection = ({ className }) => {
                 <img
                   src={`/image/home/brand-${index + 1}.png`}
                   alt="brand-logo"
+                  className="brandLogo"
                 />
               </div>
             ))}

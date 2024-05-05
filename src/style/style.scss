@@ -6,3 +6,9 @@
 @use "./sections";
 @use "./helpers";
 @use "./helpers/utilities";
+
+
+.brandLogo{
+    height: 40px;
+    object-fit: cover;
+}
