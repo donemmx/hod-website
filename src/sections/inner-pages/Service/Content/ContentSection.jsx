@@ -17,7 +17,7 @@ const ContentSection = () => {
               <div className="about_content-image-block ">
                 <div className="about_content-image content-image--mobile-width">
                   <img
-                    src="/image/service/video-image.png"
+                    src="/image/service/service-img.jpeg"
                     alt="alternative text"
                   />
                 </div>
@@ -31,39 +31,17 @@ const ContentSection = () => {
               <div className="content">
                 <div className="content-text-block">
                   <h2 className="content-title heading-md">
-                    Our vision is to build brands and provide world-class
+                    Our vision is to build solutions and provide world-class
                     experiences to our clients
                   </h2>
                   <p>
-                    SINCE 1998, we transform bold business ideas into
-                    exceptional digital products. We ideate, design, and develop
-                    data-driven digital products made to answer business
-                    challenges.
+                    We create technological tools and provide solutions to
+                    businesses and consumers. We create top quality web and
+                    mobile applications, visual experiences, as well as provide
+                    special services such as automation, data analysis, business
+                    digitization, data pipelines, AI implementations and lots
+                    more.
                   </p>
-                  <div className="content-divider" />
-                </div>
-                <div className="content-testimonial">
-                  <div className="content-testimonial__text">
-                    <p>
-                      “We love what we do &amp; create partnerships with our
-                      clients to ensure their digital transformation is
-                      positioned for long-term success.”
-                    </p>
-                  </div>
-                  <div className="content-testimonial__user-metadata">
-                    <div className="content-testimonial__user">
-                      <img
-                        src="/image/about/user-image.png"
-                        alt="alternative text"
-                      />
-                    </div>
-                    <div className="content-testimonial__body">
-                      <h4 className="content-testimonial__user-name">
-                        Karen Lynn
-                      </h4>
-                      <span>CEO &amp; Co-founder @ Company</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
