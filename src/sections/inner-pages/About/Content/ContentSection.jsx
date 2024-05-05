@@ -26,7 +26,7 @@ const ContentSection = () => {
               <div className="content">
                 <div className="content-text-block">
                   <h2 className="content-title heading-md text-black">
-                    Our vision is to build brands and provide world-class
+                    Our vision is to build solutions and provide world-class
                     experiences to our clients
                   </h2>
                   <p>
@@ -35,32 +35,8 @@ const ContentSection = () => {
                     mobile applications, visual experiences, as well as provide
                     special services such as automation, data analysis, business
                     digitization, data pipelines, AI implementations and lots
-                    more. 
+                    more.
                   </p>
-                  <div className="content-divider" />
-                </div>
-                <div className="content-testimonial">
-                  <div className="content-testimonial__text">
-                    <p>
-                      “We love what we do &amp; create partnerships with our
-                      clients to ensure their digital transformation is
-                      positioned for long-term success.”
-                    </p>
-                  </div>
-                  <div className="content-testimonial__user-metadata">
-                    <div className="content-testimonial__user">
-                      <img
-                        src="/image/about/user-image.png"
-                        alt="alternative text"
-                      />
-                    </div>
-                    <div className="content-testimonial__body">
-                      <h4 className="content-testimonial__user-name">
-                        Karen Lynn
-                      </h4>
-                      <span>CEO &amp; Co-founder @ Company</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

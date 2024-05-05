@@ -10,8 +10,7 @@ const FactSection = () => {
               <div className="content">
                 <div className="content-text-block">
                   <h2 className="content-title heading-md text-black">
-                    Our creative talent has been influencing branding around the
-                    world for a long time
+                  Your Trusted Partner for Modern Business Solutions
                   </h2>
                   <p>
                     Our exceptional performance and track record of delivering
@@ -35,7 +34,7 @@ const FactSection = () => {
               <div className="about_stats-wrapper">
                 <div className="col-6">
                   <div className="about_stats-single">
-                    <h2 className="about_stats-single__count">36K+</h2>
+                    <h2 className="about_stats-single__count">15+</h2>
                     <span>Satisfied clients</span>
                   </div>
                 </div>
@@ -47,14 +46,13 @@ const FactSection = () => {
                 </div>
                 <div className="col-6">
                   <div className="about_stats-single">
-                    <h2 className="about_stats-single__count">54K+</h2>
+                    <h2 className="about_stats-single__count">25+</h2>
                     <span>Success projects</span>
                   </div>
                 </div>
                 <div className="col-6">
                   <div className="about_stats-single">
-                    <h2 className="about_stats-single__count">72+</h2>
-                    <span>Awards winning</span>
+                   
                   </div>
                 </div>
               </div>
