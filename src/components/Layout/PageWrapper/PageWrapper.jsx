@@ -1,5 +1,6 @@
 import Aos from "aos";
 import { useEffect, useState } from "react";
+import ScrollToTop from "../ScrollToTop";
 const Layout = ({ children }) => {
   let [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -28,7 +29,10 @@ const Layout = ({ children }) => {
           </div>
         </div>
       )} */}
-      <div className={`page-wrapper overflow-hidden`}>{children}</div>
+      <div className={`page-wrapper overflow-hidden`}>
+        <ScrollToTop />
+        {children}
+      </div>
     </>
   );
 };
