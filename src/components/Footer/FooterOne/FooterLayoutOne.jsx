@@ -11,7 +11,7 @@ const FooterLayoutOne = ({ className, logo, socialClass }) => {
             <div className="footer__content-block">
               <div className="footer__content-text">
                 <div className="footer-brand">
-                  <img src={`/image/${logo}`} alt="image alt" />
+                  <img className="brandLogo" src={`/image/${logo}`} alt="image alt" />
                 </div>
                 <p>
                   We are strategic & creative digital agency who are focused on

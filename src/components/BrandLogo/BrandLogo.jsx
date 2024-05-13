@@ -4,14 +4,14 @@ function BrandLogoLight({ className }) {
   return (
     <>
       <img
-        className={`logo-dark${hasClassProps(className)}`}
-        src="/image/icons/logo-whites.svg"
+        className={`brandLogo logo-dark${hasClassProps(className)}`}
+        src="/image/brand-logo/hod-logo.png"
         alt="brand logo"
       />
     </>
   );
 }
-function BrandLogoDark({ className, logoUrl = "/image/logo.png" }) {
+function BrandLogoDark({ className, logoUrl = "/image/brand-logo/hod-logo.png" }) {
   return (
     <>
       <img
