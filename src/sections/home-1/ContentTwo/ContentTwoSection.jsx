@@ -34,7 +34,7 @@ const ContentTwo = () => {
                 <p>
                 At our core, we prioritize excellence. We understand the significance of quality, just as you do. Our commitment to delivering outstanding work is unwavering, ensuring that every project we undertake reflects the highest standards of craftsmanship and innovation.
                 <br /> 
-                You can expect
+                You can expect:
                 </p>
               </div>
               <div className="content-list-block">
