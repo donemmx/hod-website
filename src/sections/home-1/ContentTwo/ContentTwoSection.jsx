@@ -29,11 +29,12 @@ const ContentTwo = () => {
             <div className="content">
               <div className="content-text-block">
                 <h2 className="content-title heading-md text-black">
-                  Why reinvent the wheel? We build on the work of great Open
-                  Source giants
+                Why Partner with Us?
                 </h2>
                 <p>
-                Instead of starting from scratch, we embrace the foundational work of established Open Source giants. This approach allows us to innovate more efficiently and deliver robust, high-quality solutions to our clients. By leveraging existing open-source technologies, we can focus on enhancing and customizing these resources to meet our clients' unique needs. 
+                At our core, we prioritize excellence. We understand the significance of quality, just as you do. Our commitment to delivering outstanding work is unwavering, ensuring that every project we undertake reflects the highest standards of craftsmanship and innovation.
+                <br /> 
+                You can expect
                 </p>
               </div>
               <div className="content-list-block">
@@ -43,14 +44,21 @@ const ContentTwo = () => {
                       src="/image/icons/icon-check-blue.svg"
                       alt="alternative text"
                     />
-                   This strategy saves time and effort 
+                   Outstanding quality
                   </li>
                   <li className="content-list-item">
                     <img
                       src="/image/icons/icon-check-blue.svg"
                       alt="alternative text"
                     />
-                   Contributes to a collaborative ecosystem that benefits the entire tech community.
+                   Dedication and Timely Execution
+                  </li>
+                  <li className="content-list-item">
+                    <img
+                      src="/image/icons/icon-check-blue.svg"
+                      alt="alternative text"
+                    />
+                   Customer Satisfaction
                   </li>
               
                 </ul>
