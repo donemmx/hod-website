@@ -2,7 +2,6 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/scss/modal-video.scss";
 import { useState } from "react";
 import Button from "@components/Buttons";
-import { ButtonPlay } from "@components/Buttons/Button";
 
 const HeroSection = () => {
   const [isOpen, setOpen] = useState(false);
@@ -36,20 +35,20 @@ const HeroSection = () => {
                   Enabling Business Growth with Software Solutions
                 </h1>
                 <p>
-                Craft top-tier digital products with our design, development, and strategy specialists—all in one team. We deliver comprehensive software solutions to drive your business forward.
+                Build top-tier digital products with our design, development, and strategy specialists—all in one team. We deliver comprehensive software solutions to drive your business forward.
                 </p>
               </div>
               <div className="home-1_hero-newsletter">
-                <form action="#" className="newsletter-form-1">
+                {/* <form action="#" className="newsletter-form-1">
                   <input
                     type="email"
                     placeholder="Enter your email"
                     className="form-control"
-                  />
-                  <Button role="submit" className="rounded-pill">
-                    Subscribe
+                  /> */}
+                  <Button className="rounded-pill w-fit" href={'/contact'}>
+                    Contact Us
                   </Button>
-                </form>
+                {/* </form> */}
               </div>
             </div>
           </div>

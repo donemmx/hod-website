@@ -14,7 +14,7 @@ let ServiceData = [
   {
     iconSrc: "/image/icons/icon-service-3.svg",
     title: "Mobile App Development",
-    text: "By understanding your unique needs, we craft mobile solutions that drive user satisfaction & business growth",
+    text: "By understanding your unique needs, we build mobile solutions that drive user satisfaction & business growth",
     aos: "fade-right",
   },
   {
