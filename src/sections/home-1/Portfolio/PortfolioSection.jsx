@@ -6,7 +6,7 @@ const settings = {
   sectionTitle: {
     columnLeft: "col-xl-6  col-md-8",
     className: "text-center text-md-initial",
-    title: "We create world-class web design, & branding",
+    title: "We create world-class web applications",
     titleClass: "heading-md text-black",
     buttonClass: "btn-hod rounded-pill btn-fill--up",
     buttonText: "See more works",
@@ -38,7 +38,7 @@ const settings = {
 let settingProps = {
   sectionHeading: {
     type: "double",
-    title: "We create world-class web design, & branding",
+    title: "We create world-class web applications",
     buttonText: "See more works",
     classes: {
       columnLeft: "col-xl-6  col-md-8 ",

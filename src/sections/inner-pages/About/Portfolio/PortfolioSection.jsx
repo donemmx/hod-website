@@ -5,7 +5,7 @@ import data from "./data";
 const settingProps = {
   sectionHeading: {
     type: "double",
-    title: "We create world-class web design, & branding",
+    title: "We create world-class web applications",
     classes: {
       title: "heading-md text-black",
       row: "text-center text-md-initial",
