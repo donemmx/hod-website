@@ -19,7 +19,7 @@ const ContactPageOne = () => {
         <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
         <Banner title="Contact Us" text="Contact Us" />
         <FeatureSection />
-        <ContactMainSection />
+        {/* <ContactMainSection /> */}
         <CtaSection />
         <FooterLayoutOne {...settingProps.footer} />{" "}
       </Layout>
