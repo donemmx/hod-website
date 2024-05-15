@@ -62,6 +62,7 @@ const Portfolio = () => {
         <SectionHeading {...settingProps.sectionHeading}>
           <Button
             className="btn-hod rounded-pill btn-fill--up"
+            href={'/portfolio'}
           >
             See more works
           </Button>

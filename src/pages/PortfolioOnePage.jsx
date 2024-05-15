@@ -16,7 +16,7 @@ const PortfolioOnePage = () => {
       {" "}
       <Layout>
         <Header signUpButtonClass="btn-hod btn-hod--header rounded-pill btn-fill--up" />
-        <Banner title="Portfolio Classic" text="Portfolio" />
+        <Banner title="Portfolio" text="Portfolio" />
         <PortfolioSection />
         <CtaSection />
         <FooterLayoutOne {...settingProps.footer} />{" "}

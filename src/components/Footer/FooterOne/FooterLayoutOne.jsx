@@ -20,8 +20,8 @@ const FooterLayoutOne = ({ className, logo, socialClass }) => {
                 </p>
               </div>
 
-              <a href="mailto:headofdays@gmail.com" className="footer-link">
-                headofdays@gmail.com
+              <a href="mailto:contact@headofdays.com" className="footer-link">
+                contact@headofdays.com
               </a>
               <br />
               <ul
